@@ -1,0 +1,32 @@
+target: Service
+action: com.termux.RUN_COMMAND
+package name: com.termux
+class name: com.termux.app.RunCommandService
+data URI:
+mime-type: 
+flags: 0
+extra 1
+	Name: com.termux.RUN_COMMAND_PATH
+	Type: 0 (auto detect)
+	Value: /data/data/com.termux/files/home/bin/termux-script.sh
+extra 2
+	Name: com.termux.RUN_COMMAND_ARGUMENTS
+	Type: 0 (auto detect)
+	Value:
+extra3
+	Name: com.termux.RUN_COMMAND_WORKDIR
+	Type: 0 (auto detect)
+	Value: /data/data/com.termux/files/home
+extra4
+	Name: com.termux.RUN_COMMAND_BACKGROUND
+	Type: 2 (boolean)
+	Value: false
+extra5
+	Name: com.termux.RUN_COMMAND_SESSION_ACTION
+	Type: 1 (string)
+	Value: 0
+extra6
+	Name: 
+	Type: 0 (auto detect)
+	Value: 
+
